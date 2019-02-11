@@ -20,7 +20,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 /* ===MAIN=== */
 
-.body-container {
+.showcase-container {
 
 color: #ffffff;
 width:100%;
@@ -33,7 +33,7 @@ z-index:1;
 overflow:hidden;
 }
 
-.body-container:before {
+.showcase-container:before {
     z-index:-1;
     position:absolute;
     left:0;
@@ -46,14 +46,14 @@ overflow:hidden;
 
 
 
-.body-container > .text-box {
+.showcase-container > .text-box {
 
 margin: auto;
 
 }
 
 
-.body-container > .text-box > h1 {
+.showcase-container > .text-box > h1 {
 
 font-size: 2.5rem;
 padding-bottom: 2vh;
@@ -61,7 +61,7 @@ padding-bottom: 2vh;
 }
 
 
-.body-container > .text-box > form {
+.showcase-container > .text-box > form {
 
    background-color: #ffffff;
    padding: 1vh 1vw;
@@ -70,7 +70,7 @@ padding-bottom: 2vh;
 }
 
 
-.body-container > .text-box > form > input {
+.showcase-container > .text-box > form > input {
 
     padding:1vh 1vw;
     border-radius: 3px;
@@ -79,13 +79,13 @@ padding-bottom: 2vh;
   
 }
 
-.body-container > .text-box > form > input:focus {
+.showcase-container > .text-box > form > input:focus {
     outline:none;
 }
 
 
 
-.body-container > .text-box > form > button {
+.showcase-container > .text-box > form > button {
 
     border:none;
     background-color:  #ffffff;
@@ -95,21 +95,21 @@ padding-bottom: 2vh;
 
 
 
-.body-container > .text-box > form > button > i {
+.showcase-container > .text-box > form > button > i {
 
 font-size:1rem;
 color: #d6d6d6;
     
 }
 
-.body-container > .text-box > span {
+.showcase-container > .text-box > span {
 
 font-size: 0.8rem;
 
 }
 
 
-.body-container > .text-box > span > a {
+.showcase-container > .text-box > span > a {
 
     font-size: 0.8rem;
     color: #d6d6d6;
@@ -118,13 +118,13 @@ font-size: 0.8rem;
     }
 
     
-.body-container > .text-box > span > a:hover {
+.showcase-container > .text-box > span > a:hover {
 
     color: #fff;
     transition: 300ms;
   }
 
-.body-container > .bottom-box {
+.showcase-container > .bottom-box {
 
 display: flex;
 justify-content: space-between;
@@ -135,13 +135,13 @@ font-size: 0.7rem;
 padding: 2vh 2vw;
 }
 
-.body-container > .bottom-box a {
+.showcase-container > .bottom-box a {
 
 color: #d6d6d6;
 text-decoration: none;
 }
 
-.body-container > .bottom-box a:hover {
+.showcase-container > .bottom-box a:hover {
 
 
     color: #ffffff;
@@ -149,10 +149,46 @@ text-decoration: none;
 }
 
 
-.body-container > .bottom-box a span:hover {
+.showcase-container > .bottom-box a span:hover {
 
 cursor: zoom-in;
 }
+
+
+.grid-container {
+
+
+display: flex;
+flex-direction: row
+width:70vw;
+margin:0.5vw auto;
+grid-gap:1vw;
+flex-wrap: wrap;
+}
+
+.grid-container > .col {
+
+display: flex;
+flex-direction: column;
+width:25%;
+}
+
+
+
+
+
+
+
+
+
+
+.grid-container .col > img {
+
+width:100%;
+margin:0.5vw;
+
+}
+
 
 
 
