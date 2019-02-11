@@ -14,13 +14,13 @@
     display: block;
 }
 
-/* .header-logo {
+ .header-logo {
     display: block;
 }
 
-.header-logo-text {
-    display: block;
-} */
+ .header-logo-text {
+    display: inline-block;
+}
 
 .search {
     width: 100%;
