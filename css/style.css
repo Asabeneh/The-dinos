@@ -1,5 +1,163 @@
 /* ===GENERAL=== */
+
+* {
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
 /* ===HEADER=== */
+
+
+
 /* ===MAIN=== */
+
+.body-container {
+
+color: #ffffff;
+width:100%;
+height:500px;
+background-color: #000000;
+display: flex;
+position: relative;
+flex-direction: column;
+z-index:1;
+overflow:hidden;
+}
+
+.body-container:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url("https://source.unsplash.com/ARVFsI-32Uk/1920x900");
+    opacity:0.5;
+
+}
+
+
+
+
+.body-container > .text-box {
+
+margin: auto;
+
+}
+
+
+.body-container > .text-box > h1 {
+
+font-size: 2.5rem;
+padding-bottom: 2vh;
+
+}
+
+
+.body-container > .text-box > form {
+
+   background-color: #ffffff;
+   padding: 1vh 1vw;
+   border-radius: 4px;
+  
+}
+
+
+.body-container > .text-box > form > input {
+
+    padding:1vh 1vw;
+    border-radius: 3px;
+    border:none;
+    width: 50vw;
+  
+}
+
+.body-container > .text-box > form > input:focus {
+    outline:none;
+}
+
+
+
+.body-container > .text-box > form > button {
+
+    border:none;
+    background-color:  #ffffff;
+
+
+}
+
+
+
+.body-container > .text-box > form > button > i {
+
+font-size:1rem;
+color: #d6d6d6;
+    
+}
+
+.body-container > .text-box > span {
+
+font-size: 0.8rem;
+
+}
+
+
+.body-container > .text-box > span > a {
+
+    font-size: 0.8rem;
+    color: #d6d6d6;
+    text-decoration: none;
+    
+    }
+
+    
+.body-container > .text-box > span > a:hover {
+
+    color: #fff;
+    transition: 300ms;
+  }
+
+.body-container > .bottom-box {
+
+display: flex;
+justify-content: space-between;
+align-self: flex-end;  
+width:100%; 
+color: #acacac;
+font-size: 0.7rem;
+padding: 2vh 2vw;
+}
+
+.body-container > .bottom-box a {
+
+color: #d6d6d6;
+text-decoration: none;
+}
+
+.body-container > .bottom-box a:hover {
+
+
+    color: #ffffff;
+    transition: 300ms;
+}
+
+
+.body-container > .bottom-box a span:hover {
+
+cursor: zoom-in;
+}
+
+
+
+
+
+
 
 /* ===FOOTER=== */
