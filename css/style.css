@@ -52,6 +52,66 @@
         padding: 0px 10px;
         color: whitesmoke;
       }
+
+
+
+      .dropdown-content > ul a:hover {
+        transition: 300ms;
+        color: rgb(156, 156, 156);
+      }
+
+
+
+
+      .dropdown-content > ul > li > .social-box > a > i:hover {
+        transition: 300ms;
+        color: rgb(156, 156, 156);
+      }
+
+
+
+
+     
+     input#dot-menu {
+         display:none;
+        
+        }
+
+.dot-menu {
+
+    padding-left: 10px;
+    font-size: 18px;
+    color: #999898;
+ 
+
+}
+
+
+.dot-menu i:hover {
+
+   color:black;
+   transition: 300ms;
+ 
+
+}
+
+
+
+
+
+input[type=checkbox]:checked  ~ .dropdown-content {
+
+               display:block;
+         }
+
+
+.dot-menu:hover {
+
+cursor: pointer;
+
+
+}         
+
     
       .triangle-anchor {
         position: relative;
@@ -93,9 +153,9 @@
        display: block;
     }
       
-      .dropdown:hover .dropdown-content {
+      /* .dropdown:hover .dropdown-content {
         display: block;
-      }
+      } */
     
       .header-search-container {
           width: 44%;
@@ -138,6 +198,7 @@
     .header-search-container form input:focus {
         background-color: white;
         outline: none;
+        transition: 500ms;
     }
     
     
@@ -153,6 +214,7 @@
     
     .header-search-container form:focus-within {
         background-color: white;
+        transition: 500ms;
     }
     
     
@@ -222,11 +284,7 @@
         border-radius: 3px;
     }
     
-    /* ===MAIN=== */
-    
-    /* .showcase-container {
-        font-size: 20px;
-      } */
+
       
       .header-search-wrap{
         width: 40%;
@@ -237,22 +295,44 @@
     
     
     .showcase-nav {
-    margin:0 1vw;
+    margin:0 20px;
     height: 50px;
+    display:block;
+    overflow:hidden;
     }
     
     .showcase-nav > li {
     display: inline;
     line-height: 50px;
+    padding: 12px 0;
+    margin: 0 10px;
+  
     
     }
     
     .showcase-nav > div {
-        display: inline;
-        line-height: 50px;
-        border-right:1px #919191 solid;
+        display:inline;
+        padding:14px 0;
+        position: relative;
+        border-bottom: 2px solid black;
+        margin-right:10px;
+
         
         }
+
+        .showcase-nav > div:after {
+            position:absolute;
+            content:"";
+            left:60px;
+            top:12px;
+            background-color:rgb(187, 187, 187);
+            width:1px;
+            height:20px;
+        }
+
+
+
+
     
     .showcase-nav > li a:hover,
     .showcase-nav > div a:hover{
@@ -268,8 +348,8 @@
         text-decoration: none;
         color:  #919191;
         padding: 25px 0;
-        margin: 0 0.5vw;
         font-size:0.8rem;
+        
         }
     
     
@@ -316,11 +396,13 @@
         border-radius: 3px;
         border:none;
         width: 50vw;
+        transition: 500ms;
       
     }
     
     .showcase-container > .text-box > form > input:focus {
         outline:none;
+        background-color: #fff;
     }
     
     
