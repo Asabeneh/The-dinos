@@ -677,6 +677,55 @@ cursor: pointer;
                 cursor: pointer;
     
             }
+
+
+
+.sub-cat-container {
+
+    margin:auto;
+    width: 70vw;
+    padding: 3vh 0.5vw;
+}    
+
+.sub-cat-container > h1 {
+
+font-size:3rem;
+margin: 4vh 0;
+
+}
+
+.sub-cat-container > a {
+
+    color: grey;
+    font-size:0.9rem;
+    margin:  8px;
+    
+    }
+
+    .sub-cat-container > p {
+
+        margin: 1vh 0;
+
+    }        
+
+
+
+
+.sub-cat-container > img {
+
+width:23px;
+height:23px;
+border: 1px rgb(207, 207, 207) solid;
+padding: 0 3px;
+border-radius: 50%;
+text-align: center;
+line-height:27px;
+top: 6px;
+position: relative;
+
+
+
+}
     
     
     
