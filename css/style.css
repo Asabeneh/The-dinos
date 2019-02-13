@@ -160,15 +160,26 @@ cursor: pointer;
       .header-search-container {
           width: 44%;
           margin-left: 1vw;
+          border-radius: 25px;
+          height: 38px;
+          background-color: #EEEEEE;
+          align-self: center;
+          display: flex;
+          border-radius: 30px;
       }
     
       .header-search-container button {
         border:none;
         background-color: transparent;
-        padding: 1vw;
+        line-height: 40px;
         border-radius: 50%;
         width: 1vw;
         padding-right: 30px;
+        padding-left: 17px;
+    }
+
+    .header-search-container button:focus {
+        outline: none;
     }
     
     .header-search-container button i {
@@ -180,39 +191,35 @@ cursor: pointer;
     .header-search-container button i:hover {
         cursor: pointer;
         color: #686868;
-        transition: 300ms;
+        transition: 200ms;
     } 
     
-    .header-search-container form {
-        background-color: #EEEEEE;
-        display: flex;
-        border-radius: 30px;
-    }
     
-    .header-search-container form:hover {
-        /* border: 1px solid grey; */
+    .header-search-container:hover {
         box-shadow: 0px 0px 0px 1px rgb(163, 163, 163) inset;
-        transition: 500ms;
+        /* transition: 200ms; */
+    }
+
+    .header-search-container:focus-within {
+        border: 1px solid #EEEEEE;
+        /* box-shadow: 0px 0px 0px 1px rgb(163, 163, 163) inset; */
+        /* transition: 200ms; */
     }
     
-    .header-search-container form input:focus {
-        background-color: white;
+    .header-search-container input:focus {
         outline: none;
-        transition: 500ms;
     }
     
     
-      .header-search-container form input {
-        width: 80%;
-        background-color: #EEEEEE;
+      .header-search-container input {
+        background-color: transparent;
         border: none;
-        height: 20px;
         font-size: 15px;
-        padding-left: 1vw;
-        align-self: center;
+        width: 97%;
+        height: 36px;
     }
     
-    .header-search-container form:focus-within {
+    .header-search-container:focus-within {
         background-color: white;
         transition: 500ms;
     }
