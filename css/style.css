@@ -473,7 +473,7 @@ input[type="checkbox"]:checked ~ .dropdown-content {
     
     display: flex;
     flex-direction: row;
-    width:70vw;
+    width:90vw;
     margin:1vh auto;
     
     }
@@ -660,7 +660,7 @@ input[type="checkbox"]:checked ~ .dropdown-content {
 .sub-cat-container {
 
     margin:auto;
-    width: 70vw;
+    width: 90vw;
     padding: 3vh 0.5vw;
 }    
 
