@@ -801,3 +801,36 @@ input[type="checkbox"]:checked ~ .dropdown-content {
   }
 
     /* ===LOGIN PAGE=== */
+
+    .facebook-login-button {
+    background-color:#3f68a6;
+	border-radius:4px;
+	border:1px solid #4e6096;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:13px 69px;
+    text-decoration:none;
+    width: 100%;
+    }
+
+    .login-form-button {
+    background-color: black;
+    border-radius:4px;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:13px 69px;
+    text-decoration:none;
+    }
+
+    .login-box {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+        width: 45%;
+    }
