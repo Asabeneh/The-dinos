@@ -11,23 +11,24 @@
 </head>
 <body>
     <div class="login-box">
-    <img src="assets/logo.svg" alt="Logo" width="100" height="100">
-    <h1>Login</h1>
-    <p>Welcome back.<p>
+        <img src="/assets/logo.png" alt="Logo">
+        <h2>Login</h2>
+        <p>Welcome back.</p>
         <button class="facebook-login-button">
             <i class="fab fa-facebook"></i>
             Login with Facebook
         </button>
-        <p>OR</p>
+        <span>OR</span>
         <form class="login-form">
-            Email address:<br>
-            <input type="text" name="email">
-            <br>
-            Password:<br>
-            <input type="text" name="password">
+            <label for="email">Email address</label><br>
+            <input type="email" name="email" required>
             <br><br>
-          </form> 
-          <button class="login-form-button">Login</button>
-        </div>
+            <label for="password">Password <a href="#">Forgot?</a></label><br>
+            <input type="text" name="password" required>
+            <br>
+            <br><button class="login-form-button" type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="#">Join</a></p>
+    </div>
 </body>
 </html>

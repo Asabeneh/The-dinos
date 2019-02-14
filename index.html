@@ -16,16 +16,22 @@
 <body>
 
   <header>
-
+<div class="mobile-menu"> <!-- A menu only visible on mobile triggered by media query-->
+  <a href="#"><i class="fas fa-trash-alt active"></i></a>
+  <a href="#"><i class="fas fa-layer-group"></i></a>
+  <a href="#"><i class="fas fa-plus-square"></i></a>
+  <a href="#"><i class="fa fa-search"></i></a>
+</div>
     <div class="header-container">
-      <div class="header-logo"><img src="assets/logo.svg" alt="logo" width="40" height="40"></div>
+      <div class="logo-container"><div class="header-logo"><img src="assets/logo.png" alt="logo" width="40" height="40"></div>
       <div class="header-logo-text">
         <h4>Funtrash</h4>
-        <p>Pics for everybody</p>
+        <p>Trash for everybody</p>
       </div>
+    </div>
         <form class="header-search-container">
           <button type="submit"><i class="fa fa-search"></i></button>
-          <input type="text" placeholder="Search free high-resolution photos" name="search">
+          <input type="text" placeholder="Search free high-resolution trash" name="search">
         </form>
       <nav class="header-nav">
         <a href="">Collections</a>
@@ -59,10 +65,10 @@
           </div>
         </div>
       </nav>
-      <button class="header-submit-button">Submit a photo</button>
+      <a href="/login.html"><button class="header-submit-button">Submit trash</button></a>
       <div class="button-divider"></div>
-      <button class="header-login-button">Login</button>
-      <button class="header-join-button">Join free</button>
+      <a href="/login.html"><button class="header-login-button">Login</button></a>
+      <a href="/login.html"><button class="header-join-button">Join free</button></a>
 
     </div>
 
