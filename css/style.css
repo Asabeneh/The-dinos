@@ -477,12 +477,12 @@ input[type="checkbox"]:checked ~ .dropdown-content {
     cursor: zoom-in;
     }
     
+    /* Image gallery ################################### */
     
     .grid-container {
     
     
     display: flex;
-    flex-direction: row;
     width:80vw;
     margin:1vh auto;
     
@@ -843,5 +843,30 @@ width:80vw;
     color: #999;
   }
 
+  /* ===LOGIN PAGE=== */
 
-    /* ===LOGIN PAGE=== */
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+
+
+
+
+.grid-container {
+    
+  flex-direction: column;
+  width:90vw;
+  }
+
+  .grid-container > .col {
+    
+    width:100%;
+    }
+
+
+
+}
